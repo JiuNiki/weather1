@@ -5,7 +5,7 @@ from datetime import datetime, date
 from zhdate import ZhDate
 import sys
 import os
-import matplotlib.pyplot as plt
+
  
  
 def get_color():
@@ -117,9 +117,6 @@ def get_ciba():
  
  
 def send_message(to_user, access_token, region_name, weather, temp, wind_dir, note_ch, note_en):
-    img = plt.imread('E:/weather/dataset/Canon_005_LR4.png')
-    plt.imshow(img)
-    plt.show()
     url = "https://api.weixin.qq.com/cgi-bin/message/template/send?access_token={}".format(access_token)
     week_list = ["星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"]
     year = localtime().tm_year
