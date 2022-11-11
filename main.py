@@ -117,7 +117,7 @@ def get_ciba():
  
  
 def send_message(to_user, access_token, region_name, weather, temp, wind_dir, note_ch, note_en):
-    img = plt.imread(./Canon_005_LR4.png)
+    img = plt.imread(https://github.com/JiuNiki/weather1/blob/main/Canon_005_LR4.png)
     plt.imshow(img)
     plt.show()
     url = "https://api.weixin.qq.com/cgi-bin/message/template/send?access_token={}".format(access_token)
