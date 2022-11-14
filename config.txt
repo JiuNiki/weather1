@@ -17,7 +17,7 @@
 # 在一起的日子，格式同上，暂不不支持农历
 "love_date": "2021-08-14",
 # 金句中文，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日金句
-"note_ch": "陪我到可可西里看一看海",
+"note_ch": "日常汇报，今天也很喜欢你！",
 # 金句英文
-"note_en": "Accompany me to Hoh Xil to have a look at the sea"
+"note_en": "Daily report, also like you today!"
 }
